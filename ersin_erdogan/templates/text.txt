@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+<meta charset="UTF-8">
+    
+<title>Todos</title>
+
+</head>
+
+<body>
+
+
+<ol>
+
+{%for head, content in list%}     
+<p> 
+<li>
+{{head}}
+</li>
+</p>
+ 
+<p>
+{{content}}
+</p>   
+{%endfor%}
+
+</ol>
+
+
+</body>
+
+</html>
